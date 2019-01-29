@@ -2,8 +2,8 @@ package articles
 
 import (
 	"errors"
-	"github.com/wangzitian0/golang-gin-starter-kit/common"
-	"github.com/wangzitian0/golang-gin-starter-kit/users"
+	"github.com/gothinkster/golang-gin-realworld-example-app/common"
+	"github.com/gothinkster/golang-gin-realworld-example-app/users"
 	"gopkg.in/gin-gonic/gin.v1"
 	"net/http"
 	"strconv"

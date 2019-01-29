@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
+	"github.com/gothinkster/golang-gin-realworld-example-app/articles"
+	"github.com/gothinkster/golang-gin-realworld-example-app/common"
+	"github.com/gothinkster/golang-gin-realworld-example-app/users"
 
 	"gopkg.in/gin-gonic/gin.v1"
 
 	"github.com/jinzhu/gorm"
-	"github.com/wangzitian0/golang-gin-starter-kit/articles"
-	"github.com/wangzitian0/golang-gin-starter-kit/common"
-	"github.com/wangzitian0/golang-gin-starter-kit/users"
 )
 
 func Migrate(db *gorm.DB) {
